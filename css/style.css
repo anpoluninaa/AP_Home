@@ -41,7 +41,7 @@ body {
 
     height: 100%;
     width: 100%;
-    
+    background-color: #D20009;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,6 +57,9 @@ body {
 
 .header {
     position: relative;
+    align-items: center; 
+    margin-top: 40px;
+    margin-bottom: 48px;
 }
 
 .header::after {
@@ -73,14 +76,9 @@ body {
 }
 
 
-.header {
-    margin-top: 40px;
-    margin-bottom: 48px;
-}
-
 .header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -90,7 +88,7 @@ body {
 
 .special-offers__container {
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.84);
+    background: #FFFFFF;
     width: 342px;
     padding: 36px 19px 36px 20px;
 
@@ -98,8 +96,8 @@ body {
 }
 
 .special-offers__title {
-    border-radius: 5px;
-    background: rgb(9, 157, 179);
+    border-radius: 22px;
+    background: #9A0602;
 
     font-weight: 700;
     line-height: 128%;
@@ -131,8 +129,33 @@ body {
 
 .special-offers__text {
     color: #2E363E;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: -1px;
+
+    margin-bottom: 28px;
+}
+.special-offers__text_1 {
+    color: #2E363E;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+.special-offers__text_2 {
+    color: #2E363E;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: -1px;
+    margin-bottom: 2px;
+}
+.special-offers__text_3 {
+    color: #2E363E;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 29px;
     letter-spacing: -1px;
 
@@ -140,9 +163,9 @@ body {
 }
 
 .special-offers__btn {
-    border-radius: 8px;
-    background: rgb(9, 157, 179);
-    padding: 16px 50px;
+    border-radius: 22px;
+    background: #9A0602;
+    padding: 8px 50px;
 
     font-size: 13px;
     line-height: 152%;
@@ -178,7 +201,7 @@ body {
     position: absolute;
     background-image: url(../images/address.svg);
     width: 16px;
-    height: 16px;
+    height: 17px;
     left: 40px;
 }
 
@@ -194,8 +217,8 @@ body {
     background-image: url(../images/phone.svg);
     width: 16px;
     height: 16px;
-    left: 80px;
-    bottom: 20px;
+    left: 125px;
+    
 }
 
 .footer__item:not(:last-child) {
