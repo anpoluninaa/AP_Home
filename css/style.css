@@ -202,7 +202,7 @@ body {
     background-image: url(../images/address.svg);
     width: 16px;
     height: 17px;
-    left: 40px;
+    left: 25px;
 }
 
 .footer__menu-phone {
@@ -217,7 +217,7 @@ body {
     background-image: url(../images/phone.svg);
     width: 16px;
     height: 16px;
-    left: 125px;
+    left: 100px;
     
 }
 
